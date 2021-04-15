@@ -5,8 +5,6 @@ import { LayoutComponent as AdminLayout } from './admin/layout/layout.component'
 import { LayoutComponent as UserLayout } from './user/layout/layout.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/blog', pathMatch: 'full' },
-
   {
     path: 'admin',
     component: AdminLayout,
